@@ -16,9 +16,7 @@ NeoFun이 실제로 운영하며 검증한 생산성 스킬 2종과, 함께 쓰�
 | 스킬 | 무엇을 할 수 있나요? | 원본 |
 |---|---|---|
 | Visual Plan | 코딩 에이전트의 계획을 다이어그램·파일트리·와이어프레임이 포함된 리뷰 가능한 `plan.html`로 만듭니다 | [BuilderIO/skills — visual-plan](https://github.com/BuilderIO/skills/tree/main/skills/visual-plan) |
-| Gemini Notebook CLI & MCP (`nlm`) | NotebookLM을 CLI·MCP·에이전트 스킬로 연결합니다. 설치 후 `nlm skill install`로 원작자가 관리하는 최신 공식 사용 가이드를 직접 받을 수 있습니다 | [jacob-bd/gemini-notebook-mcp-cli](https://github.com/jacob-bd/gemini-notebook-mcp-cli) |
-
-> NeoFun 내부에서도 `nlm`을 활용한 로컬 가이드를 운영하지만, 그 사본은 개인 계정 정보가 포함돼 있어 공개하지 않습니다. `nlm skill install`이 항상 최신이고 개인정보가 없는 공식 경로이므로 이 저장소는 그 경로만 안내합니다.
+| Claude Video /watch | 영상의 자막과 프레임을 추출해 화면과 음성을 함께 분석합니다 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) |
 
 ## 설치 방법
 
