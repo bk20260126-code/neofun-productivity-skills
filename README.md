@@ -10,6 +10,7 @@ NeoFun이 실제로 운영하며 검증한 생산성 스킬 2종과, 함께 쓰�
 |---|---|---|
 | Cowork Best Practice | Claude Cowork 워크스페이스의 `CLAUDE.md`·`MEMORY.md` 설계, 파일 분류 규칙, 워크스테이션 vs 스킬 판단, Claude Projects 이전을 다루는 공식 SOP | [`skills/cowork-best-practice`](skills/cowork-best-practice) |
 | YouTube to Playbook | 유튜브 영상의 자막(없으면 화면 OCR)을 분석해 실행 프롬프트·판단 기준·주의사항이 정리된 Playbook 문서로 변환 | [`skills/youtube-to-playbook`](skills/youtube-to-playbook) |
+| NotebookLM CLI/MCP Environment Notes | `nlm`(NotebookLM CLI/MCP)을 Cowork·Claude Code에서 실제로 운영하며 겪은 시행착오 모음. 공식 가이드에는 없는 환경 문제만 다룸 | [`skills/nlm-environment-notes`](skills/nlm-environment-notes) |
 
 ## 함께 쓰면 좋은 외부 스킬 (링크만 제공)
 
@@ -18,7 +19,7 @@ NeoFun이 실제로 운영하며 검증한 생산성 스킬 2종과, 함께 쓰�
 | Visual Plan | 코딩 에이전트의 계획을 다이어그램·파일트리·와이어프레임이 포함된 리뷰 가능한 `plan.html`로 만듭니다 | [BuilderIO/skills — visual-plan](https://github.com/BuilderIO/skills/tree/main/skills/visual-plan) |
 | Gemini Notebook CLI & MCP (`nlm`) | NotebookLM을 CLI·MCP·에이전트 스킬로 연결합니다. 설치 후 `nlm skill install`로 원작자가 관리하는 최신 공식 사용 가이드를 직접 받을 수 있습니다 | [jacob-bd/gemini-notebook-mcp-cli](https://github.com/jacob-bd/gemini-notebook-mcp-cli) |
 
-> NeoFun 내부에서도 `nlm`을 활용한 로컬 가이드를 운영하지만, 그 사본은 개인 계정 정보가 포함돼 있어 공개하지 않습니다. `nlm skill install`이 항상 최신이고 개인정보가 없는 공식 경로이므로 이 저장소는 그 경로만 안내합니다.
+> NeoFun 내부에서 쓰는 `nlm` 로컬 가이드 원본에는 개인 계정 정보가 섞여 있어 그대로 공개하지 않습니다. 대신 개인정보를 제거하고 실제 운영 중 겪은 환경 문제만 남긴 [`skills/nlm-environment-notes`](skills/nlm-environment-notes)를 별도로 공개합니다. `nlm skill install`로 공식 가이드를 먼저 받은 뒤 보충 자료로 사용하세요.
 
 ## 설치 방법
 
